@@ -1,4 +1,4 @@
-# in721-kotlin-travelling-app-jiqi963
+# kotlin-travelling-app-jiqi963
 ## User Guide
 ### Start page
 Splash screen use a free iamge from google.<br>
