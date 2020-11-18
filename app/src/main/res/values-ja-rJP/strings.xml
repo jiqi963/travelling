@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Translate">翻訳</string>
+    <string name="typehere">ここに入力</string>
+    <string name="About">約</string>
+    <string name="Quiz">クイズ</string>
+    <string name="Map">地図</string>
+    <string name="phrases">キーフレーズ</string>
+</resources>

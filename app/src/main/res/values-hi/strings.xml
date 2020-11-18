@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Translate">अनुवाद</string>
+    <string name="typehere">यहा लिखो</string>
+    <string name="About">के बारे में</string>
+    <string name="Quiz">प्रश्नोत्तरी</string>
+    <string name="Map">नक्शा</string>
+    <string name="phrases">महत्वपूर्ण वाक्यांश</string>
+</resources>

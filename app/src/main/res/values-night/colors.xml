@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#757851 </color>
+    <color name="colorPrimaryDark">#517874 </color>
+    <color name="colorAccent">#515F78 </color>
+    <color name="float_btn_color">#212121</color>
+</resources>
+

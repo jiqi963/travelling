@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Translate">vertaling</string>
+    <string name="typehere">typ hier</string>
+    <string name="About">over</string>
+    <string name="Quiz">quiz</string>
+    <string name="Map">kaart</string>
+    <string name="phrases">sleutelzinnen</string>
+</resources>

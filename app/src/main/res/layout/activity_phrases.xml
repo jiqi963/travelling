@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="wangk6.travelling.activities.PhrasesActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_8">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/c00"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_8"
+            android:text="@string/chinese"
+            android:textSize="@dimen/size_40"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/c01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_8"
+            android:text="你好"
+            app:layout_constraintTop_toBottomOf="@id/c00" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/c02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_8"
+            android:text="谢谢"
+            app:layout_constraintTop_toBottomOf="@id/c01" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/c03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_8"
+            android:text="再见"
+            app:layout_constraintTop_toBottomOf="@id/c02" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/c04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_8"
+            android:text="新西兰"
+            app:layout_constraintTop_toBottomOf="@id/c03" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/m00"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_16"
+            android:text="@string/maori"
+            android:textColor="@color/design_default_color_secondary"
+            android:textSize="@dimen/size_40"
+            app:layout_constraintTop_toBottomOf="@id/c04" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/m01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_8"
+            android:text="Kia ora"
+            android:textColor="@color/design_default_color_secondary"
+            app:layout_constraintTop_toBottomOf="@id/m00" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/m02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_8"
+            android:text="Mauruuru"
+            android:textColor="@color/design_default_color_secondary"
+            app:layout_constraintTop_toBottomOf="@id/m01" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/m03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_8"
+            android:text="Ka kite anō"
+            android:textColor="@color/design_default_color_secondary"
+            app:layout_constraintTop_toBottomOf="@id/m02" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/m04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_8"
+            android:text="Aotearoa"
+            android:textColor="@color/design_default_color_secondary"
+            app:layout_constraintTop_toBottomOf="@id/m03" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/i00"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_16"
+            android:text="Italian"
+            android:textSize="@dimen/size_40"
+            app:layout_constraintTop_toBottomOf="@id/m04" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/i01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_8"
+            android:text="Ciao"
+            app:layout_constraintTop_toBottomOf="@id/i00" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/i02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_8"
+            android:text="Grazie"
+            app:layout_constraintTop_toBottomOf="@id/i01" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/i03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_8"
+            android:text="addio"
+            app:layout_constraintTop_toBottomOf="@id/i02" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/i04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_8"
+            android:text="Nuova Zelanda"
+            app:layout_constraintTop_toBottomOf="@id/i03" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/e00"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_16"
+            android:text="Spanish"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/size_40"
+            app:layout_constraintTop_toBottomOf="@id/i04" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/e01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_8"
+            android:text="Hola"
+            android:textColor="@color/colorPrimaryDark"
+            app:layout_constraintTop_toBottomOf="@id/e00" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/e02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_8"
+            android:text="Gracias"
+            android:textColor="@color/colorPrimaryDark"
+            app:layout_constraintTop_toBottomOf="@id/e01" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/e03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_8"
+            android:text="Adiós"
+            android:textColor="@color/colorPrimaryDark"
+            app:layout_constraintTop_toBottomOf="@id/e02" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/e04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_8"
+            android:text="Nueva Zelanda"
+            android:textColor="@color/colorPrimaryDark"
+            app:layout_constraintTop_toBottomOf="@id/e03" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/p00"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_16"
+            android:text="Portuguese"
+            android:textSize="@dimen/size_40"
+            app:layout_constraintTop_toBottomOf="@id/e04" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/p01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_8"
+            android:text="Olá"
+            app:layout_constraintTop_toBottomOf="@id/p00" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/p02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_8"
+            android:text="Obrigado"
+            app:layout_constraintTop_toBottomOf="@id/p01" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/p03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_8"
+            android:text="Adeus"
+            app:layout_constraintTop_toBottomOf="@id/p02" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/p04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_8"
+            android:text="Nova Zelândia"
+            app:layout_constraintTop_toBottomOf="@id/p03" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/d00"
+            android:textSize="@dimen/size_40"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_16"
+            android:text="Dutch"
+            android:textColor="@color/colorAccent"
+            app:layout_constraintTop_toBottomOf="@id/p04" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/d01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_8"
+            android:text="Hallo daar"
+            android:textColor="@color/colorAccent"
+            app:layout_constraintTop_toBottomOf="@id/d00" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/d02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_8"
+            android:text="Dank je"
+            android:textColor="@color/colorAccent"
+            app:layout_constraintTop_toBottomOf="@id/d01" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/d03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_8"
+            android:text="Vaarwel"
+            android:textColor="@color/colorAccent"
+            app:layout_constraintTop_toBottomOf="@id/d02" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/d04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_8"
+            android:text="Nieuw-Zeeland"
+            android:textColor="@color/colorAccent"
+            app:layout_constraintTop_toBottomOf="@id/d03" />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.core.widget.NestedScrollView>

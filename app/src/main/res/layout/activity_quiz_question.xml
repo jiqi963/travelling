@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="wangk6.travelling.activities.QuizQuestionActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_8">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_quesion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_8"
+            android:gravity="center"
+            android:textSize="@dimen/size_20"
+            android:text="question 1" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/margin_16"
+            android:src="@drawable/logo" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/ll_prograss_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_16"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <androidx.core.widget.ContentLoadingProgressBar
+                android:id="@+id/progress_bar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:max="5"
+                android:minHeight="@dimen/height_50"
+                android:progress="0"
+                android:indeterminate="false"
+                style="?android:attr/progressBarStyleHorizontal"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_progeress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="@dimen/padding_16"
+                android:textSize="@dimen/size_16"
+                tools:text="0/5"
+                />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_option_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_8"
+            android:gravity="center"
+            android:padding="@dimen/padding_8"
+            android:textSize="@dimen/size_16"
+            android:background="@drawable/default_option_bg"
+            tools:text="@string/answer_one"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_option_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_8"
+            android:layout_marginTop="@dimen/margin_8"
+            android:layout_marginEnd="@dimen/margin_8"
+            android:layout_marginStart="@dimen/margin_8"
+            android:layout_marginBottom="@dimen/margin_8"
+            android:gravity="center"
+            android:padding="@dimen/padding_8"
+            android:textSize="@dimen/size_16"
+            android:background="@drawable/default_option_bg"
+            tools:text="@string/answer_two"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_option_three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_8"
+            android:layout_marginTop="@dimen/margin_8"
+            android:layout_marginEnd="@dimen/margin_8"
+            android:layout_marginStart="@dimen/margin_8"
+            android:layout_marginBottom="@dimen/margin_8"
+            android:gravity="center"
+            android:padding="@dimen/padding_8"
+            android:textSize="@dimen/size_16"
+            android:background="@drawable/default_option_bg"
+            tools:text="@string/answer_three"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_option_four"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_8"
+            android:layout_marginTop="@dimen/margin_8"
+            android:layout_marginEnd="@dimen/margin_8"
+            android:layout_marginStart="@dimen/margin_8"
+            android:layout_marginBottom="@dimen/margin_8"
+            android:gravity="center"
+            android:padding="@dimen/padding_8"
+            android:textSize="@dimen/size_16"
+            android:background="@drawable/default_option_bg"
+            tools:text="@string/answer_four"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_8"
+            android:background="@color/colorAccent"
+            android:text="@string/submit"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size_16"
+            android:textStyle="bold"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.core.widget.NestedScrollView>

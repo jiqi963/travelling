@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="wangk6.travelling.fragments.TranslateFragment">
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edtTxtLang"
+        android:layout_width="@dimen/width_0"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_16"
+        android:layout_marginTop="@dimen/margin_150"
+        android:layout_marginEnd="@dimen/margin_16"
+        android:ems="10"
+        android:hint="@string/typehere"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </androidx.appcompat.widget.AppCompatEditText>
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txtVLang"
+        android:layout_width="@dimen/width_0"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_16"
+        android:layout_marginTop="@dimen/margin_16"
+        android:layout_marginEnd="@dimen/margin_16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLang">
+        <requestFocus />
+    </androidx.appcompat.widget.AppCompatTextView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_speech"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_8"
+        android:layout_marginStart="@dimen/margin_16"
+        android:layout_marginTop="@dimen/margin_16"
+        android:layout_marginEnd="@dimen/margin_16"
+        android:background="@drawable/ic_baseline_volume_up_24"
+        app:layout_constraintTop_toBottomOf="@id/txtVLang"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnLang"
+        android:layout_width="@dimen/width_0"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_16"
+        android:layout_marginTop="@dimen/margin_16"
+        android:layout_marginEnd="@dimen/margin_16"
+        android:background="?attr/colorAccent"
+        android:text="@string/Translate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinLang" />
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/spinLang"
+        android:layout_width="@dimen/width_0"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_16"
+        android:layout_marginTop="@dimen/margin_16"
+        android:layout_marginEnd="@dimen/margin_16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtTxtLang" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/change_theme"
+        android:text="@string/change_theme"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/darkColorPrimaryDark"
+        android:layout_width="@dimen/width_0"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_16"
+        android:layout_marginTop="@dimen/margin_32"
+        android:layout_marginEnd="@dimen/margin_16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_speech"
+        android:gravity="center"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/dayNightToggleButton"
+        android:layout_width="@dimen/width_0"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_16"
+        android:layout_marginEnd="176dp"
+        android:backgroundTint="@color/float_btn_color"
+        android:foregroundGravity="center"
+        android:src="@drawable/ic_round_night"
+        app:borderWidth="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/change_theme" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_example"
+        android:layout_width="@dimen/width_0"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_16"
+        android:layout_marginTop="@dimen/margin_16"
+        android:layout_marginEnd="@dimen/margin_16"
+        android:background="?attr/colorAccent"
+        android:text="@string/phrases"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dayNightToggleButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

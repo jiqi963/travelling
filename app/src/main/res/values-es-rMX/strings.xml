@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Translate">Traducción</string>
+    <string name="typehere">escriba aquí</string>
+    <string name="About">acerca de</string>
+    <string name="Quiz">examen</string>
+    <string name="Map">mapa</string>
+    <string name="phrases">frases clave</string>
+</resources>

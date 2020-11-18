@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Translate">翻译</string>
+    <string name="Quiz">问答</string>
+    <string name="About">关于</string>
+    <string name="typehere">在这里输入</string>
+    <string name="Map">地图</string>
+    <string name="phrases">关键短语</string>
+</resources>

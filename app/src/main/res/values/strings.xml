@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name" translatable="false">op.wangk6.travelling</string>
+    <string name="TAG" translatable="false">MainActivity</string>
+    <string name="on_data_available" translatable="false">onDataAvailable - %1$s</string>
+    <string name="on_error" translatable="false">onError - %1$s</string>
+    <string name="base_url" translatable="false">https://translate.yandex.net/api/v1.5/tr.json/translate</string>
+    <string name="key" translatable="false">trnsl.1.1.20200329T025311Z.37f6897b8a99dbd9.bb42d876c007fde0812c365015625fde8c0f0163</string>
+    <string name="Translate" translatable="true">Translate</string>
+    <string name="Quiz" translatable="true">Quiz</string>
+    <string name="About" translatable="true">About</string>
+    <string name="Map" translatable="true">Map</string>
+    <string name="typehere" translatable="true">Type Here...</string>
+    <string name="phrases" translatable="true">Key phrases</string>
+    <string name="please_wait" translatable="false">Please Wait...</string>
+    <string name="change_theme" translatable="false">Change Theme</string>
+    <string name="google_maps_key" translatable="false">AIzaSyBOm2SY3mY9Awm8qmxoIMWT236M3bGZB8k</string>
+    <string name="finish" translatable="false">Finish</string>
+    <string name="submit" translatable="false">Submit</string>
+    <string name="finishQuiz" translatable="false">You have finish that quiz!</string>
+    <string name="next" translatable="false">Next</string>
+    <string name="policy_url" translatable="false">https://op-wangk6-travelling.flycricket.io/privacy.html</string>
+    <string name="input_empty" translatable="false">Input is empty, please type something</string>
+    <string name="chinese" translatable="false">Chinese</string>
+    <string name="maori" translatable="false">Maori</string>
+    <string name="answer_one" translatable="false">Answer One</string>
+    <string name="answer_two" translatable="false">Answer Two</string>
+    <string name="answer_three" translatable="false">Answer Three</string>
+    <string name="answer_four" translatable="false">Answer Four</string>
+    <string name="result" translatable="false">Result</string>
+    <string name="image" translatable="false">Image</string>
+    <string name="Congratulations" translatable="false">Congratulations</string>
+    <string name="username" translatable="false">User name</string>
+    <string name="score" translatable="false">Score</string>
+    <string name="welcome" translatable="false">Welcome</string>
+    <string name="Enter_your_name" translatable="false">Please enter your name</string>
+    <string name="start" translatable="false">Start</string>
+
+</resources>

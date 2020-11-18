@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="@dimen/padding_8"
+    tools:context="wangk6.travelling.activities.ResultActivity">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_16"
+        android:text="@string/result"
+        android:textColor="@color/white"
+        android:textSize="@dimen/size_20"
+        android:textStyle="bold"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_32"
+        android:contentDescription="@string/image"
+        android:src="@drawable/cong"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/congratulations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_16"
+        android:text="@string/Congratulations"
+        android:textColor="@color/white"
+        android:textSize="@dimen/size_20"
+        android:textStyle="bold"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_16"
+        android:text="@string/username"
+        android:textColor="@color/white"
+        android:textSize="@dimen/size_20"
+        android:textStyle="bold"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_16"
+        android:text="@string/score"
+        android:textColor="@color/white"
+        android:textSize="@dimen/size_20"
+        android:textStyle="bold"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+
+        android:id="@+id/btn_finish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_16"
+        android:background="@color/white"
+        android:text="@string/finish"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/size_20"
+        android:textStyle="bold"/>
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="languages">
+        <item>French</item>
+        <item>Italian</item>
+        <item>Spanish</item>
+        <item>Portuguese</item>
+        <item>Chinese</item>
+        <item>Japanese</item>
+        <item>Xhosa</item>
+        <item>Malagasy</item>
+        <item>Maori</item>
+        <item>Hindi</item>
+        <item>German</item>
+        <item>Dutch</item>
+    </string-array>
+</resources>
